@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,400,500,700,800');
+@mixin font($name) {
+    @if $name=='primary' {
+        font-family: 'Raleway', sans-serif;
+    }
+    @else if $name=='secundary' {
+        font-family: 'Abril Fatface', cursive;
+    }
+}

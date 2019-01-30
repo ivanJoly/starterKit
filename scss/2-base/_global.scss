@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    @include font('primary');
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    line-height: 0;
+    font-size: 1.2em;
+    background-color: $gris-oscuro;
+    color: $verde-saturado;
+}
+
+.icon-container.instagram {
+    padding: 4px;
+}
+
+.icon-container.mail {
+    padding: 4px 5px;
+}
+
+.icon-container.whatsapp {
+    padding: 4px 5px;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    padding: 15px 10px;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s all;
+}
+
+@mixin btn-color($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+    border: 1px solid $bg-color;
+    &:hover {
+        background-color: $color;
+        color: $bg-color;
+        transition: all 0.3s ease;
+    }
+}
