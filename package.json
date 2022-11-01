@@ -10,7 +10,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-concat": "^2.6.1",
